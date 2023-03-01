@@ -1,0 +1,23 @@
+﻿<Page x:Class="PROYECTO_WPF.NET.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PROYECTO_WPF.NET"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1">
+
+    <Grid Background="#FFDCC1FF">
+        <Label Content="GAMES&#xD;&#xA;" HorizontalAlignment="Center" Margin="0,84,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Black" FontWeight="Bold" Foreground="#FFA437DA">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Rectangle HorizontalAlignment="Center" Height="55" Stroke="Black" VerticalAlignment="Top" Width="800" Fill="#FFF0DBFF"/>
+        <TextBox HorizontalAlignment="Left" Margin="70,19,0,0" TextWrapping="Wrap" Text="Buscar juegos" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Image  Height="15" Width="15" Source="/search.png" Margin="50,22,735,413"/>
+        <Label Content="Perfil" HorizontalAlignment="Left" Margin="695,22,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>

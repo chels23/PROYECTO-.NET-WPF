@@ -1,0 +1,35 @@
+﻿<Window x:Class="PROYECTO_WPF.NET.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROYECTO_WPF.NET"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+
+    <DockPanel LastChildFill="True" Background="White">
+            <Menu DockPanel.Dock="Top" HorizontalAlignment="Right" Background="White">
+                <MenuItem Header="_Iniciar Sesion">
+                    <MenuItem Command="ApplicationCommands.New" Header="New"/>
+                    <MenuItem Header="Open"  />
+                    <MenuItem Header="Save"/>
+                    <Separator/>
+                    <MenuItem Command="ApplicationCommands.Close" Header="Exit"/>
+                </MenuItem>
+
+                <MenuItem Header="_Edit">
+                    <MenuItem Header="Cut" IsEnabled="False"/>
+                    <MenuItem Header="Copy" IsEnabled="False" />
+                    <MenuItem Header="Paste" />
+                </MenuItem>
+            </Menu>
+            <StackPanel Width="130" Background="#FF17023C">
+                <Button Command="ApplicationCommands.New" Content="Opciones" Margin="10,20,10,0" FontSize="14" FontWeight="Bold" />
+            <Button  Content="Juegos" Margin="10,10,10,0" FontSize="14" Background="#FFFF1212" FontWeight="Bold" Cursor="Hand" Click="Open_Juegos" />
+
+            <Button Command="ApplicationCommands.Close" Content="Ajustes" Margin="10,10,10,0" FontSize="14" FontWeight="Bold"/>
+            </StackPanel>
+            <Frame Content="Contenido principal" Name="myFrame" Background="#FFB54FFF"/>
+        </DockPanel>
+
+</Window>
