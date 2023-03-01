@@ -5,19 +5,38 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:PROYECTO_WPF.NET"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="400" d:DesignWidth="670"
       Title="Page1">
 
     <Grid Background="#FFDCC1FF">
-        <Label Content="GAMES&#xD;&#xA;" HorizontalAlignment="Center" Margin="0,84,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Black" FontWeight="Bold" Foreground="#FFA437DA">
+        <Label Content="GAMES&#xD;&#xA;" HorizontalAlignment="Center" Margin="0,63,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Black" FontWeight="Bold" Foreground="#FFA437DA" Height="57">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <Rectangle HorizontalAlignment="Center" Height="55" Stroke="Black" VerticalAlignment="Top" Width="800" Fill="#FFF0DBFF"/>
-        <TextBox HorizontalAlignment="Left" Margin="70,19,0,0" TextWrapping="Wrap" Text="Buscar juegos" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-        <Image  Height="15" Width="15" Source="/search.png" Margin="50,22,735,413"/>
-        <Label Content="Perfil" HorizontalAlignment="Left" Margin="695,22,0,0" VerticalAlignment="Top"/>
+        <Rectangle HorizontalAlignment="Center" Height="55" Stroke="Black" VerticalAlignment="Top" Width="670" Fill="#FFF0DBFF"/>
+        <TextBox HorizontalAlignment="Left" Margin="70,19,0,0" TextWrapping="Wrap" Text="Buscar juegos" VerticalAlignment="Top" Width="120"/>
+        <Image x:Name="Buscar"  Height="15" Width="15" Source="/search.png" Margin="44,22,611,379"/>
+        <Label Content="Perfil" HorizontalAlignment="Left" Margin="754,17,0,0" VerticalAlignment="Top"/>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Top" Height="192" Width="170" Margin="0,133,0,0" Background="White" BorderBrush="{x:Null}" Foreground="Red" BorderThickness="1,1,1,1" Padding="10,10,10,10" UseLayoutRounding="False">
+            <StackPanel Orientation="Vertical">
+                <Image Source="/search.png" Stretch="Fill"></Image>
+                <TextBlock FontSize="20" TextAlignment="Center" Height="33" HorizontalAlignment="Center" Width="150"><Run Language="es-es" Text="Ahorcado"/></TextBlock>
+            </StackPanel>
+        </Button>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="192" Width="170" Margin="45,133,0,0" Background="White" BorderBrush="{x:Null}" Foreground="Red" BorderThickness="1,1,1,1" Padding="10,10,10,10" UseLayoutRounding="False">
+            <StackPanel Orientation="Vertical">
+                <Image Source="/search.png" Stretch="Fill"/>
+                <TextBlock FontSize="20" TextAlignment="Center" Height="33" HorizontalAlignment="Center" Width="150"><Run Language="es-es" Text="Sopa de letras"/></TextBlock>
+            </StackPanel>
+        </Button>
+        <Button HorizontalAlignment="Right" VerticalAlignment="Top" Height="192" Width="170" Margin="0,133,45,0" Background="White" BorderBrush="{x:Null}" Foreground="Red" BorderThickness="1,1,1,1" Padding="10,10,10,10" UseLayoutRounding="False">
+            <StackPanel Orientation="Vertical">
+                <Image Source="/search.png" Stretch="Fill"/>
+                <TextBlock FontSize="20" TextAlignment="Center" Height="33" HorizontalAlignment="Center" Width="150"><Run Language="es-es" Text="3 en raya"/></TextBlock>
+            </StackPanel>
+        </Button>
+
 
     </Grid>
 </Page>
