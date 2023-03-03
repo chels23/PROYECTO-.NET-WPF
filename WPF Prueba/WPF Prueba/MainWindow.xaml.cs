@@ -42,5 +42,18 @@ namespace WPF_Prueba
             window2.Owner = this;
             window2.Show();
         }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+
+            var result = MessageBox.Show("¿Estás seguro de que deseas irte?",
+                                            "Question",
+                                            MessageBoxButton.YesNo,
+                                            MessageBoxImage.Question) ;
+
+            // User doesn't want to close, cancel closure
+            if (result == MessageBoxResult.No)
+                e.Cancel = true;
+        }
     }
 }
