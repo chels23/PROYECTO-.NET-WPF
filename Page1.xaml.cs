@@ -24,5 +24,23 @@ namespace PROYECTO_WPF.NET
         {
             InitializeComponent();
         }
+        private void abrir_ahorcado(object sender, RoutedEventArgs e)
+        {
+            // Abrimos una ventana nueva modal
+            ahorcado ahorcado = new ahorcado();
+            ahorcado.Show();
+        }
+        private void abrir_sopa(object sender, RoutedEventArgs e)
+        {
+            // Abrimos una ventana nueva modal
+            sopa sopa = new sopa();
+            sopa.Show();
+        }
+        private void abrir_tictactoe(object sender, RoutedEventArgs e)
+        {
+            // Abrimos una ventana nueva modal
+            tictactoe tictactoe = new tictactoe();
+            tictactoe.Show();
+        }
     }
 }

@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PROYECTO_WPF.NET"
         mc:Ignorable="d"
-        Title="tictactoe" Height="450" Width="800">
-    <Grid>
-        
+        Title="tictactoe" Height="800" Width="800"
+        ResizeMode="NoResize">
+    <Grid Height="784" VerticalAlignment="Bottom" Background="#FF454382">
+        <Rectangle HorizontalAlignment="Center" Height="145" Margin="0,-1,0,0" VerticalAlignment="Top" Width="800" Fill="#FFDEA7FF"/>
+        <Label Content="TRES EN RAYA" HorizontalAlignment="Right" VerticalAlignment="Top" FontFamily="Audiowide" FontSize="70" Foreground="#FF67E7FF" Margin="0,38,90,0"/>
+        <Label Content="TRES EN RAYA" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Audiowide" FontSize="70" Foreground="#FFE967FF" Margin="89,44,0,0"/>
+        <Label Content="TRES EN RAYA" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Audiowide" FontSize="70" Foreground="#FF673DFF" Margin="0,41,0,0"/>
+        <Canvas Margin="70,180,70,70" Background="#FFF3EAFF">
+            <Button Content="" Canvas.Left="179" Canvas.Top="53" Height="75" Width="75" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            
+            <Button Content=""                   Canvas.Top="53" Height="75" Width="76" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Left="292"/>
+            
+            <Button Content="" Canvas.Right="179" Canvas.Top="53" Height="75" Width="75" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="402"/>
+            
+            <Button Content="" Canvas.Left="179" Canvas.Top="158" Height="75" Width="75" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            
+            <Button Content=""                    Canvas.Top="158" Height="75" Width="76" Canvas.Left="292" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            
+            <Button Content="" Canvas.Right="179" Canvas.Top="158" Height="75" Width="75" Canvas.Left="402" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            
+            <Button Content="" Canvas.Left="179" Canvas.Top="267" Height="75" Width="75" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+           
+            <Button Content=""                    Canvas.Top="267" Height="75" Width="76" Canvas.Left="292" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            
+            <Button Content="" Canvas.Right="179" Canvas.Top="267" Height="75" Width="75" Canvas.Left="402" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        </Canvas>
+
     </Grid>
 </Window>

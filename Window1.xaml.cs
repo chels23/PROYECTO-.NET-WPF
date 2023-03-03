@@ -24,10 +24,5 @@ namespace PROYECTO_WPF.NET
             InitializeComponent();
         }
 
-        private void Open_Juegos(object sender, RoutedEventArgs e)
-        {
-            // El contenido central se cambia con la nueva pantalla
-            myFrame.Navigate(new Page1());
-        }
     }
 }

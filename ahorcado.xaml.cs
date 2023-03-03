@@ -19,9 +19,6 @@ namespace PROYECTO_WPF.NET
     /// </summary>
     public partial class ahorcado : Window
     {
-        public ahorcado()
-        {
-            InitializeComponent();
-        }
+
     }
 }

@@ -5,37 +5,59 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:PROYECTO_WPF.NET"
       mc:Ignorable="d" 
-      d:DesignHeight="400" d:DesignWidth="670"
+      d:DesignHeight="800" d:DesignWidth="1340"
       Title="Page1">
 
     <Grid Background="#FFDCC1FF">
-        <Label Content="GAMES&#xD;&#xA;" HorizontalAlignment="Center" Margin="0,63,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe UI Black" FontWeight="Bold" Foreground="#FFA437DA" Height="57">
-            <Label.Effect>
-                <DropShadowEffect/>
-            </Label.Effect>
-        </Label>
-        <Rectangle HorizontalAlignment="Center" Height="55" Stroke="Black" VerticalAlignment="Top" Width="670" Fill="#FFF0DBFF"/>
-        <TextBox HorizontalAlignment="Left" Margin="70,19,0,0" TextWrapping="Wrap" Text="Buscar juegos" VerticalAlignment="Top" Width="120"/>
-        <Image x:Name="Buscar"  Height="15" Width="15" Source="/search.png" Margin="44,22,611,379"/>
-        <Label Content="Perfil" HorizontalAlignment="Left" Margin="754,17,0,0" VerticalAlignment="Top"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Top" Height="192" Width="170" Margin="0,133,0,0" Background="White" BorderBrush="{x:Null}" Foreground="Red" BorderThickness="1,1,1,1" Padding="10,10,10,10" UseLayoutRounding="False">
+        <Label Content="GAMES" HorizontalAlignment="Left" Margin="497,77,0,0" VerticalAlignment="Top" FontSize="100"  FontWeight="Bold" Foreground="#FF69FCFF" Height="115" Width="435" FontFamily="Audiowide"/>
+        <Label Content="GAMES" HorizontalAlignment="Left" Margin="487,90,0,0" VerticalAlignment="Top" FontSize="100"  FontWeight="Bold" Foreground="#FFDC69FF" Height="115" Width="435" FontFamily="Audiowide"/>
+        <Label Content="GAMES" HorizontalAlignment="Left" Margin="492,83,0,0" VerticalAlignment="Top" FontSize="100"  FontWeight="Bold" Foreground="#FF8E37DA" Height="116" Width="435" FontFamily="Audiowide"/>
+        <Rectangle HorizontalAlignment="Center" Height="55" Stroke="Black" VerticalAlignment="Top" Width="1360" Fill="#FFF0DBFF" StrokeThickness="0"/>
+        <TextBox HorizontalAlignment="Left" Margin="95,10,0,0" TextWrapping="Wrap" Text="Buscar juegos" VerticalAlignment="Top" Width="155" Height="36" FontSize="20"/>
+        <Image x:Name="Buscar" Source="/search.png" Margin="50,7,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="42"/>
+
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="329" Width="300" Margin="100,305,0,0" Foreground="Red" BorderThickness="1,1,1,1" Padding="10,10,10,10" UseLayoutRounding="False" Click="abrir_sopa" Background="White">
             <StackPanel Orientation="Vertical">
-                <Image Source="/search.png" Stretch="Fill"></Image>
-                <TextBlock FontSize="20" TextAlignment="Center" Height="33" HorizontalAlignment="Center" Width="150"><Run Language="es-es" Text="Ahorcado"/></TextBlock>
+                <Image Stretch="Fill" Source="/sopa.png"/>
+                <TextBlock FontFamily="Audiowide" FontSize="24" TextAlignment="Center" Height="33" HorizontalAlignment="Center" Width="212">
+                    <TextBlock.Foreground>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFC292FF"/>
+                            <GradientStop Color="#FF420096" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TextBlock.Foreground><Run Language="es-es" Text="Sopa de letras"/></TextBlock>
             </StackPanel>
         </Button>
-        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="192" Width="170" Margin="45,133,0,0" Background="White" BorderBrush="{x:Null}" Foreground="Red" BorderThickness="1,1,1,1" Padding="10,10,10,10" UseLayoutRounding="False">
+
+        <Button HorizontalAlignment="Center" VerticalAlignment="Top" Height="329" Width="300" Margin="0,305,0,0" BorderThickness="1,1,1,1" Padding="10,10,10,10" UseLayoutRounding="False" Click="abrir_ahorcado" Background="White">
             <StackPanel Orientation="Vertical">
-                <Image Source="/search.png" Stretch="Fill"/>
-                <TextBlock FontSize="20" TextAlignment="Center" Height="33" HorizontalAlignment="Center" Width="150"><Run Language="es-es" Text="Sopa de letras"/></TextBlock>
+                <Image Source="/ahorcado.png" Stretch="Fill"></Image>
+                <TextBlock FontFamily="Audiowide" FontSize="24" TextAlignment="Center" Height="33" HorizontalAlignment="Center" Width="150">
+                    <TextBlock.Foreground>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFC292FF"/>
+                            <GradientStop Color="#FF420096" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TextBlock.Foreground>
+                    <Run Language="es-es" Text="Ahorcado"/>
+                </TextBlock>
             </StackPanel>
         </Button>
-        <Button HorizontalAlignment="Right" VerticalAlignment="Top" Height="192" Width="170" Margin="0,133,45,0" Background="White" BorderBrush="{x:Null}" Foreground="Red" BorderThickness="1,1,1,1" Padding="10,10,10,10" UseLayoutRounding="False">
+
+        <Button HorizontalAlignment="Right" VerticalAlignment="Top" Height="329" Width="300" Margin="0,305,100,0" BorderThickness="1,1,1,1" Padding="10,10,10,10" UseLayoutRounding="False" Click="abrir_tictactoe" Background="White">
             <StackPanel Orientation="Vertical">
-                <Image Source="/search.png" Stretch="Fill"/>
-                <TextBlock FontSize="20" TextAlignment="Center" Height="33" HorizontalAlignment="Center" Width="150"><Run Language="es-es" Text="3 en raya"/></TextBlock>
+                <Image Stretch="Fill" Source="/tictactoe.png"/>
+                <TextBlock FontFamily="Audiowide" FontSize="24" TextAlignment="Center" Height="33" HorizontalAlignment="Center" Width="150">
+                    <TextBlock.Foreground>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFC292FF"/>
+                            <GradientStop Color="#FF420096" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TextBlock.Foreground>
+                    <Run Language="es-es" Text="3 en raya"/></TextBlock>
             </StackPanel>
         </Button>
+        <Image HorizontalAlignment="Left" Height="47" Margin="1291,10,0,0" VerticalAlignment="Top" Width="35" Source="/icono.png"/>
 
 
     </Grid>
