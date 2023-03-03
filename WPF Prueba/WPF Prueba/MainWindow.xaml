@@ -8,11 +8,17 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label Content="Idioma" HorizontalAlignment="Left" Margin="600,24,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="650,24,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="650,24,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem IsSelected="True">Español</ComboBoxItem>
+            <ComboBoxItem>Ingles</ComboBoxItem>
+            <ComboBoxItem>Frances</ComboBoxItem>
+            <ComboBoxItem>Portugues</ComboBoxItem>
+            <ComboBoxItem>Aleman</ComboBoxItem>
+        </ComboBox>
         <Rectangle HorizontalAlignment="Center" Margin="0,80,0,198" Stroke="Black" Width="500" Fill="#FF330051"/>
-        <Image x:Name="icon" HorizontalAlignment="Left" Height="100" Margin="670,186,0,148" Width="100" Source="/fondoamatista.jpg" />
         <Button x:Name="btn1" Content="Jugar como invitado"  Margin="102,276,478,116" Background="#FF7000C9" Foreground="White" FontSize="15" FontFamily="Kristen ITC" />
         <Button Content="Iniciar sesión" Margin="448,277,130,116" Background="#FF7000C9" Foreground="White" FontSize="15" FontFamily="Kristen ITC" Click="Open_Login"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="358,109,0,0" VerticalAlignment="Top" Width="100" Source="/editar.jpg"/>
 
 
     </Grid>

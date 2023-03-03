@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Window2" Height="450" Width="800">
     <Grid Margin="0,0,0,18" Background="White">
-        <Button x:Name="button" Content="INICIAR SESIÓN" HorizontalAlignment="Left" Margin="294,334,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="#FF6A08FF" Height="42" Width="174" FontWeight="Bold" FontFamily="Verdana" FontSize="11" FontStyle="Italic" FontStretch="SemiExpanded" Cursor="Hand" Foreground="White"/>
+        <Button x:Name="button" Content="INICIAR SESIÓN" HorizontalAlignment="Left" Margin="294,334,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="#FF6A08FF" Height="42" Width="174" FontWeight="Bold" FontFamily="Verdana" FontSize="11" FontStyle="Italic" FontStretch="SemiExpanded" Cursor="Hand" Foreground="White" Click="ir_panel"/>
         <Label Content="Contraseña" HorizontalAlignment="Left" Margin="283,190,0,0" VerticalAlignment="Top"/>
         <PasswordBox HorizontalAlignment="Left" Margin="280,224,0,0" VerticalAlignment="Top" Width="202" Height="23"/>
         <Label Content="Email" HorizontalAlignment="Left" Margin="280,103,0,0" VerticalAlignment="Top"/>

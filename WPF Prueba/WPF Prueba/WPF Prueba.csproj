@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="editar.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="editar.jpg" />
+  </ItemGroup>
+
 </Project>

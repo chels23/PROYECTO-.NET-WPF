@@ -23,5 +23,13 @@ namespace WPF_Prueba
         {
             InitializeComponent();
         }
+
+        private void ir_panel(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Owner = this;
+            window1.Show();
+            
+        }
     }
 }
