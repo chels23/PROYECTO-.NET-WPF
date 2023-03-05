@@ -19,17 +19,36 @@ namespace PROYECTO_WPF.NET
     /// <summary>
     /// Lógica de interacción para tictactoe.xaml
     /// </summary>
-    public partial class tictactoe : Window
+    public partial class tresenraya : Window
     {
 
         int turno;
         int puntoX, puntoO;
 
-        public tictactoe()
+        public tresenraya()
         {
             InitializeComponent();
         }
 
+        private void show_mensaje(object sender, RoutedEventArgs e)
+        {
+            MessageBoxResult result = MessageBox.Show("¿Cóooomo? ¿Que no sabes jugar al Tres en raya? ¿Quieres que te enseñe?", "Instrucciones del tres en raya", MessageBoxButton.YesNoCancel);
+            switch (result)
+            {
+                case MessageBoxResult.Yes:
+                    MessageBox.Show("Estas son las instrucciones tú: \n" +
+                        "Es un juego de dos personas, el jugador X y el jugador O. \n" +
+                        "Para ganar tienes que tener tres X o tres O en línea (horizontal, vertical o diagonal).\n" +
+                        "Y ya, no hay más misterio, no te rayes y empieza a jugar, al final del día vas a entenderlo.", "Instrucciones del tres en raya");
+                    break;
+                case MessageBoxResult.No:
+                    MessageBox.Show("Vale, vale, no hacía falta ser tan borde.", "Instrucciones del tres en raya");
+                    break;
+                case MessageBoxResult.Cancel:
+                    MessageBox.Show("¿Okaaay? Tampoco quería enseñarte.", "Instrucciones del tres en raya");
+                    break;
+            }
+        }
 
         private void Window_Loader(object sender, RoutedEventArgs e)
         {
@@ -115,8 +134,11 @@ namespace PROYECTO_WPF.NET
             }
 
             JugadorO.Content = 0;
+            puntoO = 0;
             JugadorX.Content = 0;
-            turno = 1;
+            puntoX = 0;
+            turno = 2;
+            turnoJugador.Content = "X";
         }
     }
 }
