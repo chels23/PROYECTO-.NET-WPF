@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ahorcado.png" />
+    <None Remove="icono.png" />
+    <None Remove="search.png" />
+    <None Remove="sopa.jpg" />
+    <None Remove="sopa.png" />
+    <None Remove="tictactoe.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ahorcado.png" />
+    <Resource Include="icono.png" />
+    <Resource Include="search.png" />
+    <Resource Include="sopa.jpg" />
+    <Resource Include="sopa.png" />
+    <Resource Include="tictactoe.png" />
+  </ItemGroup>
+
+</Project>

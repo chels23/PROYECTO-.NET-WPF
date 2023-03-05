@@ -36,11 +36,11 @@ namespace PROYECTO_WPF.NET
             sopa sopa = new sopa();
             sopa.Show();
         }
-        private void abrir_tictactoe(object sender, RoutedEventArgs e)
+        private void abrir_tresenraya(object sender, RoutedEventArgs e)
         {
             // Abrimos una ventana nueva modal
-            tictactoe tictactoe = new tictactoe();
-            tictactoe.Show();
+            tresenraya tresenraya = new tresenraya();
+            tresenraya.Show();
         }
     }
 }

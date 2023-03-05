@@ -44,7 +44,7 @@
             </StackPanel>
         </Button>
 
-        <Button HorizontalAlignment="Right" VerticalAlignment="Top" Height="329" Width="300" Margin="0,305,100,0" BorderThickness="1,1,1,1" Padding="10,10,10,10" UseLayoutRounding="False" Click="abrir_tictactoe" Background="White">
+        <Button HorizontalAlignment="Right" VerticalAlignment="Top" Height="329" Width="300" Margin="0,305,100,0" BorderThickness="1,1,1,1" Padding="10,10,10,10" UseLayoutRounding="False" Click="abrir_tresenraya" Background="White">
             <StackPanel Orientation="Vertical">
                 <Image Stretch="Fill" Source="/tictactoe.png"/>
                 <TextBlock FontFamily="Audiowide" FontSize="24" TextAlignment="Center" Height="33" HorizontalAlignment="Center" Width="150">
