@@ -1,0 +1,26 @@
+﻿<Window x:Class="PROYECTO_WPF.NET.sopa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROYECTO_WPF.NET"
+        mc:Ignorable="d"
+        Title="sopa" Height="584" Width="800">
+    <Grid Height="598" VerticalAlignment="Top" Background="#FF454382">
+        <Rectangle HorizontalAlignment="Center" Height="145" Margin="0,-1,0,0" VerticalAlignment="Top" Width="2802" Fill="#FFDEA7FF"/>
+        <Label Content=" Clicking Game" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Audiowide" FontSize="60" Foreground="#FF673DFF" Margin="0,55,0,0"/>
+        <Canvas Name="MyCanvas" MouseLeftButtonDown="CanvasClicking" Background="#FF454382" Margin="10,169,19,125" RenderTransformOrigin="0.5,0.5">
+            <Canvas.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.115"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.785"/>
+                </TransformGroup>
+            </Canvas.RenderTransform>
+            <Label Name="txtScore" FontSize="20" FontWeight="Bold" Content="Score: 0"  Foreground="white"/>
+            <Label Name="txtLastScore" FontSize="20" FontWeight="Bold" Foreground="white" Content="Last Score: 0" Canvas.Left="180" />
+            <Rectangle Stroke="Black" Name="healthBar" Width="350" Fill="Red" Height="27" Canvas.Left="352" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        </Canvas>
+    </Grid>
+</Window>

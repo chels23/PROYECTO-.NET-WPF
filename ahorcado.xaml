@@ -1,0 +1,23 @@
+﻿<Window x:Class="PROYECTO_WPF.NET.ahorcado"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROYECTO_WPF.NET"
+        mc:Ignorable="d"
+        Title="ahorcado" Height="450" Width="800">
+
+
+    <Grid Background="#FF454382">
+        <Rectangle HorizontalAlignment="Center" Height="145" Margin="0,-1,0,0" VerticalAlignment="Top" Width="800" Fill="#FFDEA7FF"/>
+        <Label Content="ADIVINA EL NÚMERO" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Audiowide" FontSize="60" Foreground="#FF673DFF" Margin="0,55,0,0"/>
+        <Canvas Margin="0,142,0,0">
+            <TextBlock Text="Adivina el número del 1 al 100" FontSize="25" FontWeight="Bold" Canvas.Left="221" Canvas.Top="24" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" />
+            <TextBox x:Name="txtNumero" Canvas.Left="260" Canvas.Top="76" Height="29" Width="254" FontSize="20"/>
+            <Button x:Name="btnComprobar" Content="Comprobar" Click="btnComprobar_Click" Canvas.Left="192" Canvas.Top="161" Height="39" Width="142" Background="#FFE5D0F6" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20"/>
+            <TextBlock x:Name="lblResultado" HorizontalAlignment="Left" Height="36" Canvas.Left="260" Canvas.Top="110" VerticalAlignment="Center" Width="423"  Foreground="White" FontSize="15"/>
+            <Button x:Name="btnReiniciar" Content="Reiniciar" Click="btnReiniciar_Click" Canvas.Left="439" Canvas.Top="161" Height="39" Width="139" HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FFE5D0F6" FontSize="20"/>
+
+        </Canvas>
+    </Grid>
+</Window>
