@@ -5,13 +5,13 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:PROYECTO_WPF.NET"
       mc:Ignorable="d" 
-      d:DesignHeight="800" d:DesignWidth="1340"
+      d:DesignHeight="800" d:DesignWidth="1100"
       Title="Page1">
 
     <Grid Background="#FFDCC1FF">
-        <Label Content="GAMES" HorizontalAlignment="Left" Margin="497,77,0,0" VerticalAlignment="Top" FontSize="100"  FontWeight="Bold" Foreground="#FF69FCFF" Height="115" Width="435" FontFamily="Audiowide"/>
-        <Label Content="GAMES" HorizontalAlignment="Left" Margin="487,90,0,0" VerticalAlignment="Top" FontSize="100"  FontWeight="Bold" Foreground="#FFDC69FF" Height="115" Width="435" FontFamily="Audiowide"/>
-        <Label Content="GAMES" HorizontalAlignment="Left" Margin="492,83,0,0" VerticalAlignment="Top" FontSize="100"  FontWeight="Bold" Foreground="#FF8E37DA" Height="116" Width="435" FontFamily="Audiowide"/>
+        <Label Content="GAMES" HorizontalAlignment="Left" Margin="364,106,0,0" VerticalAlignment="Top" FontSize="100"  FontWeight="Bold" Foreground="#FF69FCFF" Height="115" Width="435" FontFamily="Audiowide"/>
+        <Label Content="GAMES" HorizontalAlignment="Left" Margin="377,102,0,0" VerticalAlignment="Top" FontSize="100"  FontWeight="Bold" Foreground="#FFDC69FF" Height="115" Width="435" FontFamily="Audiowide"/>
+        <Label Content="GAMES" HorizontalAlignment="Left" Margin="370,102,0,0" VerticalAlignment="Top" FontSize="100"  FontWeight="Bold" Foreground="#FF8E37DA" Height="116" Width="436" FontFamily="Audiowide"/>
         <Rectangle HorizontalAlignment="Center" Height="55" Stroke="Black" VerticalAlignment="Top" Width="1360" Fill="#FFF0DBFF" StrokeThickness="0"/>
         <TextBox HorizontalAlignment="Left" Margin="95,10,0,0" TextWrapping="Wrap" Text="Buscar juegos" VerticalAlignment="Top" Width="155" Height="36" FontSize="20"/>
         <Image x:Name="Buscar" Source="/search.png" Margin="50,7,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Height="40" Width="42"/>
@@ -57,7 +57,7 @@
                     <Run Language="es-es" Text="3 en raya"/></TextBlock>
             </StackPanel>
         </Button>
-        <Image HorizontalAlignment="Left" Height="47" Margin="1291,10,0,0" VerticalAlignment="Top" Width="35" Source="/icono.png"/>
+        <Image HorizontalAlignment="Left" Height="47" Margin="1000,10,0,0" VerticalAlignment="Top" Width="35" Source="/icono.png"/>
 
 
     </Grid>

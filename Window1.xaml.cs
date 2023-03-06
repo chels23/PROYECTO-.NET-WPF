@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace PROYECTO_WPF.NET
@@ -23,7 +24,36 @@ namespace PROYECTO_WPF.NET
         {
             InitializeComponent();
         }
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
 
+            var result = MessageBox.Show("¿Estás seguro de que deseas irte?",
+                                            "Question",
+                                            MessageBoxButton.YesNo,
+                                            MessageBoxImage.Question);
+
+            // User doesn't want to close, cancel closure
+            if (result == MessageBoxResult.No)
+                e.Cancel = true;
+        }
+
+        private void Close_Window1(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Open_Page2(object sender, RoutedEventArgs e)
+        {
+            // El contenido central se cambia con la nueva pantalla
+            myFrame.Navigate(new Uri("page2.xaml", UriKind.Relative));
+        }
+
+        private void Open_Juegos(object sender, RoutedEventArgs e)
+        {
+
+
+            myFrame.NavigationService.GoBack();
+        }
 
     }
 }
