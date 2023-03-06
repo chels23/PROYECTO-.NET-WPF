@@ -1,0 +1,28 @@
+﻿<Window x:Class="PROYECTO_WPF.NET.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROYECTO_WPF.NET"
+        mc:Ignorable="d"
+        Title="Window1" Height="900" Width="1600"
+        ResizeMode="NoResize"  Closing="Window_Closing">
+
+    <DockPanel LastChildFill="True" Background="White">
+            <Menu DockPanel.Dock="Top" HorizontalAlignment="Right" Background="White">
+                <MenuItem Header="Cerrar" >
+                <MenuItem Header="Cerrar sesión"  IsEnabled="True" Click="Close_Window1"/>
+                <MenuItem Header="Volver a Juegos"  IsEnabled="True" Click="Open_Juegos" />
+            </MenuItem>
+            </Menu>
+            <StackPanel Width="245" Background="#FF17023C">
+               
+            <Button  Content="Juegos" Margin="10,10,10,0" FontSize="14" FontWeight="Bold" Cursor="Hand" Background="#FF8F70FF"/>
+
+            <Button Content="Ajustes" Margin="10,10,10,0" FontSize="14" FontWeight="Bold" Click="Open_Page2"/>
+            </StackPanel>
+            <Frame Content="Contenido principal" Name="myFrame" Background="#FFB54FFF" Source="Page1.xaml">
+            </Frame>
+    </DockPanel>
+
+</Window>

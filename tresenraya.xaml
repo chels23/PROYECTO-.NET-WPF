@@ -1,0 +1,72 @@
+﻿<Window x:Class="PROYECTO_WPF.NET.tresenraya"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROYECTO_WPF.NET"
+        mc:Ignorable="d"
+        Title="Tres en raya" Height="800" Width="800">
+    <Grid Height="784" VerticalAlignment="Bottom" Background="#FF454382">
+        <Rectangle HorizontalAlignment="Center" Height="145" Margin="0,-1,0,0" VerticalAlignment="Top" Width="2802" Fill="#FFDEA7FF"/>
+        <Label Content="TRES EN RAYA" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Audiowide" FontSize="60" Foreground="#FF673DFF" Margin="0,55,0,0"/>
+        <Canvas Name="Canvas" Margin="70,180,70,70" Background="#FFF3EAFF">
+            <TextBlock Text="Es el turno del jugador: " FontSize="20" TextAlignment="Center" FontFamily="Audiowide" Canvas.Left="460" TextWrapping="Wrap" Canvas.Top="267" Height="50" Width="175" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Name="turnoJugador" Content="X" FontSize="25" FontFamily="Audiowide" Canvas.Left="533" Canvas.Top="323" Foreground="#FFA000FF" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+            <TextBlock FontSize="20" FontFamily="Audiowide" Canvas.Left="483" TextWrapping="Wrap" Text="Resultados" Canvas.Top="80" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Content="---------------------" FontFamily="Audiowide" Canvas.Left="468" Canvas.Top="98" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Content="--------------" FontFamily="Audiowide" Canvas.Left="496" Canvas.Top="145" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label Content="X" FontSize="25" FontFamily="Audiowide" Canvas.Left="483" Canvas.Top="123" Foreground="#FFA000FF" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Content="O" FontSize="25" FontFamily="Audiowide" Canvas.Left="577" Canvas.Top="123" Foreground="#FFA000FF" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Name="JugadorX" Content="0" FontSize="25" FontFamily="Audiowide" Canvas.Left="480" Canvas.Top="170" Foreground="#FFA000FF" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Label Name="JugadorO" Content="0" FontSize="25" FontFamily="Audiowide" Canvas.Left="575" Canvas.Top="170" Foreground="#FFA000FF" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+            <StackPanel Canvas.Left="40" Canvas.Top="50">
+                <WrapPanel x:Name="WrapPanel" Width="420" Orientation="Horizontal">
+                    <WrapPanel.Resources>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Margin" Value="10,10" />
+                            <Setter Property="Padding" Value="10,10" />
+                        </Style>
+                    </WrapPanel.Resources>
+
+                    <Button x:Name="Boton1" Content="" Height="120" Width="120" Click="boton_jugar" Background="#FFD2C4FF" BorderBrush="{x:Null}" Foreground="Black"/>
+
+                    <Button x:Name="Boton2" Content="" Height="120" Width="120" Click="boton_jugar" Background="#FFD2C4FF" BorderBrush="{x:Null}" Foreground="Black"/>
+
+                    <Button x:Name="Boton3" Content="" Height="120" Width="120" Click="boton_jugar" Background="#FFD2C4FF" BorderBrush="{x:Null}" Foreground="Black"/>
+
+                    <Button x:Name="Boton4" Content="" Height="120" Width="120" Click="boton_jugar" Background="#FFD2C4FF" BorderBrush="{x:Null}" Foreground="Black"/>
+
+                    <Button x:Name="Boton5" Content="" Height="120" Width="120" Click="boton_jugar" Background="#FFD2C4FF" BorderBrush="{x:Null}" Foreground="Black"/>
+
+                    <Button x:Name="Boton6" Content="" Height="120" Width="120" Click="boton_jugar" Background="#FFD2C4FF" BorderBrush="{x:Null}" Foreground="Black"/>
+
+                    <Button x:Name="Boton7" Content="" Height="120" Width="120" Click="boton_jugar" Background="#FFD2C4FF" BorderBrush="{x:Null}" Foreground="Black"/>
+
+                    <Button x:Name="Boton8" Content="" Height="120" Width="120" Click="boton_jugar" Background="#FFD2C4FF" BorderBrush="{x:Null}" Foreground="Black"/>
+
+                    <Button x:Name="Boton9" Content="" Height="120" Width="120" Click="boton_jugar" Background="#FFD2C4FF" BorderBrush="{x:Null}" Foreground="Black"/>
+                </WrapPanel>
+            </StackPanel>
+
+            <Button Name="BotonReset" Canvas.Left="136" Canvas.Top="471" Height="53" Width="228" HorizontalAlignment="Left" VerticalAlignment="Top" Click="boton_resetear" Background="#FFD2C4FF">
+                <TextBlock TextWrapping="Wrap" Text="Resetear juego" FontSize="20" FontFamily="Audiowide" TextAlignment="Center" Foreground="White"/>
+            </Button>
+        </Canvas>
+        <Button Width="50" Height="50" HorizontalAlignment="Right" VerticalAlignment="Top" BorderThickness="1,1,1,1" Padding="10,10,10,10" UseLayoutRounding="False" Click="show_mensaje" Background="White">
+            <StackPanel Orientation="Vertical">
+                <Image Source="/tictactoe.png" Stretch="Fill"></Image>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>
