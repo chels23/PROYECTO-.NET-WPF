@@ -1,0 +1,132 @@
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.exe
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.deps.json
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.runtimeconfig.json
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.dll
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.pdb
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.csproj.AssemblyReference.cache
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\App.g.cs
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET_MarkupCompile.cache
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET_MarkupCompile.lref
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\MainWindow.baml
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.g.resources
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.GeneratedMSBuildEditorConfig.editorconfig
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.AssemblyInfoInputs.cache
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.AssemblyInfo.cs
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.csproj.CoreCompileInputs.cache
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.dll
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\refint\PROYECTO_WPF.NET.dll
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.pdb
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.genruntimeconfig.cache
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\ref\PROYECTO_WPF.NET.dll
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Page1.g.cs
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Page1.baml
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Window1.g.cs
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Window1.baml
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\ahorcado.g.cs
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\sopa.g.cs
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\tictactoe.g.cs
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\ahorcado.baml
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\sopa.baml
+D:\AlumnoTarde\.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\tictactoe.baml
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.exe
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.deps.json
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.runtimeconfig.json
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.dll
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.pdb
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.csproj.AssemblyReference.cache
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\ahorcado.g.cs
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Page1.g.cs
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\sopa.g.cs
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET_MarkupCompile.cache
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET_MarkupCompile.lref
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\ahorcado.baml
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Page1.baml
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\sopa.baml
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Window1.baml
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.g.resources
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.AssemblyInfoInputs.cache
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.AssemblyInfo.cs
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.csproj.CoreCompileInputs.cache
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.dll
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\refint\PROYECTO_WPF.NET.dll
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.pdb
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.genruntimeconfig.cache
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\ref\PROYECTO_WPF.NET.dll
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\tresenraya.g.cs
+C:\Users\Jane\Documents\NET .NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\tresenraya.baml
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.exe
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.deps.json
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.runtimeconfig.json
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.dll
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.pdb
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.csproj.AssemblyReference.cache
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\ahorcado.g.cs
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Page1.g.cs
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\sopa.g.cs
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\tresenraya.g.cs
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET_MarkupCompile.cache
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET_MarkupCompile.lref
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\ahorcado.baml
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Page1.baml
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\sopa.baml
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\tresenraya.baml
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Window1.baml
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.g.resources
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.AssemblyInfoInputs.cache
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.AssemblyInfo.cs
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.csproj.CoreCompileInputs.cache
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.dll
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\refint\PROYECTO_WPF.NET.dll
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.pdb
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.genruntimeconfig.cache
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\ref\PROYECTO_WPF.NET.dll
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\login.g.cs
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\login.baml
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Page2.g.cs
+C:\Users\arist\Downloads\PROYECTO_WPF.NET\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Page2.baml
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.exe
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.deps.json
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.runtimeconfig.json
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.dll
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\bin\Debug\net6.0-windows\PROYECTO_WPF.NET.pdb
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.csproj.AssemblyReference.cache
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\ahorcado.g.cs
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\login.g.cs
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Page1.g.cs
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Page2.g.cs
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\sopa.g.cs
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\tresenraya.g.cs
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET_MarkupCompile.cache
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET_MarkupCompile.lref
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\ahorcado.baml
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\login.baml
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Page1.baml
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Page2.baml
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\sopa.baml
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\tresenraya.baml
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\Window1.baml
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.g.resources
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.AssemblyInfoInputs.cache
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.AssemblyInfo.cs
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.csproj.CoreCompileInputs.cache
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.dll
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\refint\PROYECTO_WPF.NET.dll
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.pdb
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\PROYECTO_WPF.NET.genruntimeconfig.cache
+C:\Users\kxiao\OneDrive\Escritorio\PROYECTO_WPF.NET\PROYECTO_WPF.NET\obj\Debug\net6.0-windows\ref\PROYECTO_WPF.NET.dll

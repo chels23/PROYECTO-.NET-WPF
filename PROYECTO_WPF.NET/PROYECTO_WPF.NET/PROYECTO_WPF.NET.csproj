@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="adivina.gif" />
+    <None Remove="adivina.png" />
+    <None Remove="ahorcado.png" />
+    <None Remove="bubble.gif" />
+    <None Remove="dados.jpg" />
+    <None Remove="icono.png" />
+    <None Remove="search.png" />
+    <None Remove="sopa.jpg" />
+    <None Remove="sopa.png" />
+    <None Remove="tictactoe.png" />
+    <None Remove="tresenraya.gif" />
+    <None Remove="tresenraya.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="adivina.gif" />
+    <Resource Include="adivina.png" />
+    <Resource Include="ahorcado.png" />
+    <Resource Include="bubble.gif" />
+    <Resource Include="dados.jpg" />
+    <Resource Include="icono.png" />
+    <Resource Include="search.png" />
+    <Resource Include="sopa.jpg" />
+    <Resource Include="sopa.png" />
+    <Resource Include="tictactoe.png" />
+    <Resource Include="tresenraya.gif" />
+    <Resource Include="tresenraya.png" />
+  </ItemGroup>
+
+</Project>
